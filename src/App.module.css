@@ -1,0 +1,42 @@
+.result {
+  height: 65vh;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+.result div {
+  padding: 0 10px;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+.result h2 {
+  text-align: center;
+}
+.result img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+.won {
+  color: green;
+}
+.lost {
+  color: red;
+}
+.draw {
+  color: blue;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+}
+.choices img {
+  width: 100px;
+  border-radius: 50%;
+  margin: 0 30px;
+  cursor: pointer;
+}
